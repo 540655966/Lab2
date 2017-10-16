@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<struts>
+		<action name = "Query" class = "Web.Action"  method = "Query">
+		<result>ShowAllBook.jsp</result>
+		</action>
+        <action name="form对应的要发出POST请求的地方" class="Web.Action" method="showInformation">
+        <result>/bookdetail.jsp</result>
+        </action>
+        <action name="form对应的要发出POST请求的地方" class="Web.Action" method="deleteBook">
+        <result>/SuccessResult.jsp</result>
+        </action>
+        <action name="form对应的要发出POST请求的地方" class="Web.Action" method="addBook">
+        <result>/SuccessResult.jsp</result>
+        </action>
+        <action name="form" class="Web.Action" method="update">
+        <result>/SuccessResult.jsp</result>
+        </action>
+</struts>
